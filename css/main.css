@@ -118,15 +118,6 @@ body {
 }
 
 
-/* Grid Styles */
-
-.grid-list {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, minmax(240px, 1fr));
-    gap: 30px;
-}
-
 /* Header Top Styles */
 
 
@@ -464,3 +455,46 @@ body {
 
 
 /* Hero Two Styles */
+
+
+.hero-two-grid {
+    margin-bottom: 100px;
+}
+
+.grid-list {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-two-item {}
+
+.hero-two-img-wrapper {}
+
+.hero-two-img {
+    width: 270px;
+    height: 270px;
+}
+
+.hero-two-title {}
+
+
+/* Intro Styles */
+
+
+.intro-wrapper {
+    display: flex;
+}
+
+.intro-div {
+    background-image: url("../images/jpg/kokteyl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.intro-div-two {
+    background-image: url("../images/jpg/sake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
